@@ -13,7 +13,7 @@ data = np.loadtxt("aerogerador.dat", delimiter='\t')
 
 fig = plt.figure(1)
 ax = fig.add_subplot()
-ax.scatter(data[:, 0], data[:, 1], edgecolor='k') #, alpha=0.6
+ax.scatter(data[:, 0], data[:, 1], edgecolor='k') 
 ax.set_title("Todo o conjunto de dados.")
 ax.set_xlabel("Velocidade do vento")
 ax.set_ylabel("Potência gerada pelo aerogerador")
